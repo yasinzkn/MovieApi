@@ -26,5 +26,7 @@ namespace MovieApi.Persistence.Context
         public DbSet<Tag> Tags { get; set; }
 
         public DbSet<Cast> Casts { get; set; }
+
+        public DbSet<Series> Serieses { get; set; }
     }
 }

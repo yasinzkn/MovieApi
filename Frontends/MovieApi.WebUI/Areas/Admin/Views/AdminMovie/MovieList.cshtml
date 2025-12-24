@@ -220,8 +220,8 @@
                         </td>
                         <td>@item.CreatedYear</td>
                         <td>
-                            <span class="status-pill @(item.Status ? "active" : "passive")">
-                                @(item.Status ? "AKTİF" : "PASİF")
+                            <span class="status-pill @(item.Status)">
+                                @(item.Status)
                             </span>
                         </td>
                         <td><a href="/Admin/AdminMovie/DeleteMovie/@item.MovieId" class="action-btn btn-delete">Sil</a></td>

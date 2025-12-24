@@ -24,6 +24,6 @@ namespace MovieApi.Dto.Dtos.AdminMovieDtos
 
         public string CreatedYear { get; set; }
 
-        public bool Status { get; set; }
+        public string Status { get; set; }
     }
 }

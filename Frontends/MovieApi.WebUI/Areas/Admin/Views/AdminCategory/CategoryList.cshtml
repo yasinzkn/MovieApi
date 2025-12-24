@@ -188,7 +188,7 @@
                     <th>Filmler</th>
                     <th>Yorumlar</th>
                     <th>Ort. Puan</th>
-                    <th>Durum</th>
+                    @* <th>Durum</th> *@
                     <th>İşlemler</th>
                 </tr>
             </thead>
@@ -218,11 +218,11 @@
                             </span>
                         </td>
 
-                        <td>
-                            @* <span class="status-pill @(item.IsActive ? "active" : "passive")">
+                        @* <td>
+                            <span class="status-pill @(item.IsActive ? "active" : "passive")">
                                 @(item.IsActive ? "AKTİF" : "PASİF")
-                            </span> *@
-                        </td>
+                            </span>
+                        </td> *@
 
                         <td class="d-flex gap-2">
                             <a href="#" class="action-btn btn-update">Güncelle</a>
