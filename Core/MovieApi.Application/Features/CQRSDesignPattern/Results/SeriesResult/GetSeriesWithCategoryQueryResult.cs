@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieApi.Dto.Dtos.AdminSeriesDtos
+namespace MovieApi.Application.Features.CQRSDesignPattern.Results.SeriesResult
 {
-    public class AdminResultSeriesDto
+    public class GetSeriesWithCategoryQueryResult
     {
         public int SeriesId { get; set; }
 
